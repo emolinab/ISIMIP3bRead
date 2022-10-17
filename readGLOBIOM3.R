@@ -71,6 +71,6 @@ readGLOBIOM3<-function(ssp="1",SPA="1",RCP="2p6",gcm="GFDL",type="Cropland",year
   GLOBIOM_05_Mag<- magpiesort(GLOBIOM_05_Mag)
   
   
-  
+  return(GLOBIOM_05_Mag)
   
 }
